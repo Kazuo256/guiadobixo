@@ -1,0 +1,7 @@
+.gitignore
+*.pdf
+*.log
+tmp
+*.swp
+*~
+TODO
