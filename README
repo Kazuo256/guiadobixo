@@ -1,0 +1,24 @@
+Guia do Bixo - Comissão de Recepção do IME-USP
+======================================================
+
+:: Sobre o guia
+
+  Este guia é escrito anualmente para facilitar a vida dos bixos ingressantes no
+IME-USP.
+
+:: Guidelines
+  Este guia tem o intuito de ser sustentável e de fácil manutenção entre os
+anos. Assim, pedimos que sempre que contribuir, atente para as seguintes
+orientações:
+  - Tente manter as linhas com menos de 80 caracteres
+  - Tente deixar a formatação do latex consistente
+  - Mantenha tudo claro e simples
+  - Comente qualquer coisa que fuja à regra anterior
+
+:: Coisas úteis
+  No vim:
+    :%s/^\s\+//g  - Tira espaços em branco no começo da linha por todo o código
+    :%s/\s\+$//g  - Tira espaços em branco no fim da linha por todo o código
+    :.s/^\(.\{,79}\) \(\a\+.*\)/\1^M\2/  - Quebra a linha em aproximadamente 80 
+caracteres    
+  Pra escrever esse ^M, você deve apertar ctrl+v, soltar e depois apertar enter.
