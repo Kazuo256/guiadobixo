@@ -1,7 +1,10 @@
 .gitignore
+*.aux
+*.toc
 *.pdf
 *.log
 tmp
+temp.tex
 *.swp
 *~
 TODO
