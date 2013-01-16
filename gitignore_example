@@ -8,3 +8,4 @@ temp.tex
 *.swp
 *~
 .*
+!img/*.pdf
