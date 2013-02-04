@@ -9,3 +9,4 @@ temp.tex
 *~
 .*
 !img/*.pdf
+!renderizado/*.pdf
