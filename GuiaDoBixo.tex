@@ -49,7 +49,7 @@
 \newcommand{\figura}[1] {
     \begin{figure}[!htbp]
       \begin{center}
-        \includegraphics[width=\textwidth]{imagens/#1.pdf}
+        \includegraphics[width=\textwidth]{img/#1.pdf}
       \end{center}
     \end{figure}
 }
@@ -82,25 +82,26 @@
 % Carta Aos Ingressantes -------------------------------------------------------
 \input{carta_aos_ingressantes.tex}
 \pagebreak
-%\quadrinhos1 %FIXME Arrumar a imagem
+\quadrinhos{1}
 
 % Comissão de Trote e o Kit-bixo -----------------------------------------------
 \input{comissao_e_kit_bixo.tex}
 
 % O CAMat ----------------------------------------------------------------------
 \input{camat.tex}
+\quadrinhos{2}
 
 % A Atlética -------------------------------------------------------------------
-%\quadrinhos2
 \input{atletica.tex}
 
 % Dissecando os Cursos ---------------------------------------------------------
 \input{dissecando_os_cursos.tex}
-\pagebreak
-%\quadrinhos5
+\quadrinhos{6}
 
 % Um Pouco Sobre o IME ---------------------------------------------------------
 \input{sobre_o_ime.tex}
+\quadrinhos{7}
+\pagebreak %FIXME Mágica de latex para deixar o quadrinho no lugar certo
 
 % O que é RD? ------------------------------------------------------------------
 \input{rd.tex}
@@ -128,7 +129,7 @@
 
 % Hospital Universitário -------------------------------------------------------
 \input{hospital_universitario.tex}
-%\quadrinhos5
+\quadrinhos{5}
 
 % Tudo Que Vai Volta -----------------------------------------------------------
 \input{transporte.tex}
@@ -142,7 +143,6 @@
 
 % Melodias para a bixarada -----------------------------------------------------
 \input{musicas.tex}
-%\figura{xkcd}
 
 % Utilidades -------------------------------------------------------------------
 \input{utilidades.tex}
