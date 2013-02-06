@@ -13,6 +13,7 @@ Arquivos prontos e atualizados:
   cursos_lic.tex
   cursos_pura.tex
   cursos.tex
+  dicas.tex
   glossario.tex
   hospital_universitario.tex
   ime_jr.tex
@@ -36,7 +37,6 @@ Arquivos não prontos:
 
 comissao_e_kit_bixo.tex
   Inserir figura?
-dicas.tex
 editorial.tex
   Arrumar os FIXME
 GuiaDoBixo.tex
