@@ -45,6 +45,14 @@
     \nopagebreak[4]
 }{ }
 
+% Delimita uma subsubseção 
+\newenvironment{subsubsecao}[1] {
+    \rule[0ex]{1ex}{1.5ex}
+    {\large\sf #1}
+	 \addcontentsline{toc}{subsection}{#1}
+    \nopagebreak[4]
+}{ }
+
 % Coloca uma figura (sem ser quadrinhos)
 \newcommand{\figura}[1] {
     \begin{figure}[!htbp]
