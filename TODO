@@ -50,7 +50,6 @@ Falta arrumar no geral:
 	Adicionar um mapa da usp
 	Adicionar um mapa do circular
 	Adicionar um link pro site do metro
-	Arrumar todos os itinerários de ônibus
 	Descobrir por quê o índice tá saindo na ordem errada
 	Criar uma página com o guia na internet
 	Adicionar um link para o guia na internet
@@ -61,10 +60,6 @@ Falta arrumar no geral:
 Atualizações do Guia do Bixo 
 
 -  Fazer substituição em todo o documento das numerações dos anos (“2012 => 2013”). 
-
-- Pag 52 [Linhas de ônibus]: 
-Com a mudança de trajeto de algumas linhas, não mais passando por dentro do Campus, essa parte precisa ter uma atualização cuidadosa, mas eu não uso esses ônibus e não estou sabendo eficientemente das mudanças... O mesmo vale para o itinerário dos circulares, onde basta acrescentar o ponto do Metrô Butantã logo depois do P1 (por onde ambos os circulares deixam o campus), depois voltando ao P1 e continuando o trajeto, sem mudanças.
-
 
 Para 2014:
   editorial.tex:
