@@ -1,50 +1,5 @@
 Vários %TODO e %FIXME foram espalhados pelos textos. É preciso arrumar todos eles.
 
-Arquivos prontos e atualizados:
-  apoio_bcc.tex
-  atletica.tex
-  camat.tex
-  carta_aos_ingressantes.tex
-  consideracoes_finais.tex
-  cursos_bcc.tex
-  cursos_bmac.tex
-  cursos_bma.tex
-  cursos_estat.tex
-  cursos_lic.tex
-  cursos_pura.tex
-  cursos.tex
-  dicas.tex
-  glossario.tex
-  hospital_universitario.tex
-  ime_jr.tex
-  jogos_cagando.tex
-  jogos_copas.tex
-  jogos_espadas.tex
-  jogos_glossario.tex
-  jogos_king.tex
-  jogos_pokeralho.tex
-  jogos_truco.tex
-  guia_de_jogos.tex
-  rd.tex
-  rede_linux.tex
-  sobre_o_dce.tex
-  sobre_o_ime.tex
-  sobre_a_usp.tex
-  transporte.tex
-  usp_game_dev.tex
-  utilidades.tex
-
-Arquivos não prontos:
-
-comissao_e_kit_bixo.tex
-  Inserir figura?
-editorial.tex
-  Arrumar os FIXME
-GuiaDoBixo.tex
-  Tudo que falta nos outros
-musicas.tex
-
-
 Falta arrumar no geral:
   Escrever a seção Autores e Licença no README
 	Adicionar um mapa da usp
@@ -55,11 +10,6 @@ Falta arrumar no geral:
 	Adicionar um link para o guia na internet
 	Fazer uma revisão geral ortográfica.
     a COSEAS pode até estar correto gramaticalmente, mas o certo é o COSEAS!!!
-  
-  
-Atualizações do Guia do Bixo 
-
--  Fazer substituição em todo o documento das numerações dos anos (“2012 => 2013”). 
 
 Para 2014:
   editorial.tex:
