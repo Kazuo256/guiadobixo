@@ -1,4 +1,4 @@
-\documentclass[11pt]{report}
+\documentclass[12pt]{report}
 \usepackage[portuguese]{babel}
 \usepackage[utf8]{inputenc}
 %\usepackage[dvips]{graphicx}
@@ -7,17 +7,18 @@
 \usepackage[normalem]{ulem}
 \usepackage{latexsym}
 \usepackage{amsmath}
-%\usepackage{hyperref}
+ \usepackage[pdfborder={0 0 0}]{hyperref}
 
 \newcounter{qcounter}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{3ex plus 0.5ex minus 0.5ex}
 
-\addtolength{\voffset}{-0.8cm}
-\addtolength{\textheight}{1.6cm}
-\addtolength{\hoffset}{-1.0cm}
-\addtolength{\textwidth}{2.0cm}
+\addtolength{\voffset}{-2.8cm}
+\addtolength{\textheight}{5.5cm}
+\addtolength{\hoffset}{-2.0cm}
+\addtolength{\textwidth}{4.5cm}
+\setlength{\topmargin}{0cm}
 
 \pagestyle{plain}
 
@@ -77,7 +78,7 @@
 % Capa -------------------------------------------------------------------------
 \figura{Capa}
 \clearpage
-\pagebreak
+\newpage
 
 % Coloca o índice --------------------------------------------------------------
 \tableofcontents
@@ -85,11 +86,9 @@
 
 % Editorial --------------------------------------------------------------------
 \input{editorial.tex}
-\pagebreak
 
 % Carta Aos Ingressantes -------------------------------------------------------
 \input{carta_aos_ingressantes.tex}
-\pagebreak
 \quadrinhos{1}
 
 % Comissão de Trote e o Kit-bixo -----------------------------------------------
@@ -109,10 +108,10 @@
 % Um Pouco Sobre o IME ---------------------------------------------------------
 \input{sobre_o_ime.tex}
 \quadrinhos{7}
-\pagebreak %FIXME Mágica de latex para deixar o quadrinho no lugar certo
 
 % O que é RD? ------------------------------------------------------------------
 \input{rd.tex}
+\quadrinhos{3}
 
 % IME Júnior -------------------------------------------------------------------
 \input{ime_jr.tex}
@@ -122,18 +121,15 @@
 
 % Contas na Rede Linux ---------------------------------------------------------
 \input{rede_linux.tex}
-%\figura{quad8}
 
 % CEC --------------------------------------------------------------------------
 \input{cec.tex}
 
 % Um Pouco Sobre a USP ---------------------------------------------------------
 \input{sobre_a_usp.tex}
-\pagebreak
 
 % Um Pouco Sobre o DCE ---------------------------------------------------------
 \input{sobre_o_dce.tex}
-\pagebreak
 
 % Hospital Universitário -------------------------------------------------------
 \input{hospital_universitario.tex}
@@ -144,10 +140,10 @@
 
 % Guia de jogos da Vivência ----------------------------------------------------
 \input{guia_de_jogos.tex}
-\pagebreak
 
 % Dicas ------------------------------------------------------------------------
 \input{dicas.tex}
+\quadrinhos{9}
 
 % Melodias para a bixarada -----------------------------------------------------
 \input{musicas.tex}
@@ -157,6 +153,7 @@
 
 % Glossário --------------------------------------------------------------------
 \input{glossario.tex}
+\pagebreak
 
 % Considerações Finais ---------------------------------------------------------
 \input{consideracoes_finais.tex}
