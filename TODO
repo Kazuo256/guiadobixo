@@ -8,7 +8,8 @@ Falta arrumar no geral:
 	Descobrir por quê o índice tá saindo na ordem errada
 	Criar uma página com o guia na internet
 	Adicionar um link para o guia na internet
-    a COSEAS pode até estar correto gramaticalmente, mas o certo é o COSEAS!!! a/o COSEAS chama SAS agora!! Foi errado mesmo!! xD
+    a COSEAS pode até estar correto gramaticalmente, mas o certo é o COSEAS!!! a/o COSEAS chama SAS agora, devemos trocar o nome ou ninguém vai chamar o COSEAS de SAS?
+	Forçar links (\tt) na mesma linha
 
 Para 2014:
   editorial.tex:
@@ -16,4 +17,5 @@ Para 2014:
     editorial ou em lugar nenhum.
     Arrumar todos os box.
     Arrumar o migué dos \qquads
+  Verificar todos os %REFTIME (Referências a uma data que pode mudar)
 
