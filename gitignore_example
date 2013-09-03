@@ -1,5 +1,6 @@
 .gitignore
 *.aux
+*.out
 *.toc
 *.pdf
 *.log
