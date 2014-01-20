@@ -20,6 +20,9 @@ orientações:
   Sobre o latex:
     Lembre-se que pro latex, espaço, tab, newline é tudo a mesma coisa.
     Lembre-se que pro latex, uma linha vazia é igual a 20 linhas vazias.
+
+  Para procurar coisas:
+    grep "TODO" *.tex
     
   No vim:
     :%s/^\s\+//g  - Tira espaços em branco no começo da linha por todo o código
