@@ -30,29 +30,30 @@
         \rule[-1.2ex]{5ex}{5.5ex}
         {\Large\sf #1}
         \hspace{\stretch{1}}
-    } \addcontentsline{toc}{chapter}{#1}
-    %\begin{sf}
+    }
+    \phantomsection %Faz o link do pdf funcionar direito
+	\addcontentsline{toc}{chapter}{#1}
     \nopagebreak[4]
-} { 
-    %\end{sf}
-}
+}{}
 
 
 % Delimita uma subseção 
 \newenvironment{subsecao}[1] {
     \rule[0ex]{2.5ex}{2.5ex}
     {\Large\sf #1}
-	 \addcontentsline{toc}{section}{#1}
+    \phantomsection %Faz o link do pdf funcionar direito
+	\addcontentsline{toc}{section}{#1}
     \nopagebreak[4]
-}{ }
+}{}
 
 % Delimita uma subsubseção 
 \newenvironment{subsubsecao}[1] {
     \rule[0ex]{1ex}{1.5ex}
     {\large\sf #1}
-	 \addcontentsline{toc}{subsection}{#1}
+    \phantomsection %Faz o link do pdf funcionar direito
+	\addcontentsline{toc}{subsection}{#1}
     \nopagebreak[4]
-}{ }
+}{}
 
 % Coloca uma figura (sem ser quadrinhos)
 \newcommand{\figura}[1] {
