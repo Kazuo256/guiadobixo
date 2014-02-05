@@ -12,3 +12,30 @@ maratona: Renato (aka Totoro), Yan (aka Pikachu
 sobre_a_usp/coseas: Yumi, Seno e Luiz
 sobre_o_dce: Adrian
 usp_game_dev: Renan (aka Miojo), Wil (aka Kazuo), Renato (aka Totoro)
+
+----------------------
+
+O que sobrou do antigo editorial:
+
+\\
+\makebox[4cm][l]{{\bf Editores}} Arthur, David, Godinez e Luiz\\
+%
+%\makebox[4cm][l]{{\bf Capa}} David e Wil-Kazuo.\\ %FIXME Arrumar após fazer a capa
+%
+\makebox[4cm][l]{{\bf Textos}} André Verri (Deco), Antonieta, Fábio da Yumi, Gizela Fonseca,\\
+\makebox[4cm][l]{{\bf       }} Lucas Cavalcanti, Marina Trindade, Mauricio Camilo,\\
+\makebox[4cm][l]{{\bf       }} Paula Corradi, Pedrosa, Pedrão, Renata Aguemi,\\ 
+\makebox[4cm][l]{{\bf       }} Ricardo Yasuda,  Yumi, David, Wil-Kazuo e autores dos textos\\ 
+\makebox[4cm][l]{{\bf       }} dos guias anteriores não supracitados.\\
+%
+\makebox[4cm][l]{{\bf Layout}} btco (Guia 2007)                          \\
+\makebox[4cm][l]{{\bf Revisão geral}} Dado a falta de tempo, bixo, a revisão é com você!\\
+\makebox[4cm][l]{{\bf Agradecimentos:}} \\
+
+$\qquad\qquad$Ao Donald Knuth (por inventar o \TeX\makebox{} e salvar-nos do Word na preparação
+desse guia), ao btco pela iniciativa de começar este guia em \LaTeX\makebox{},
+ao gimp por nos ajudar a editar as figuras, aos bixos por lerem o guia todo
+e decorarem as músicas e os dez mandamentos e aos organizadores dos guias anteriores,
+afinal nada se cria, tudo se copia. Por último, à gráfica e às pessoas da Comissão
+que perderam as férias para que este guia ficasse pronto.\\
+\makebox[4cm][l]{{\bf       }}                                            \\
