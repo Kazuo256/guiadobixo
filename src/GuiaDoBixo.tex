@@ -38,6 +38,21 @@
     \nopagebreak[4]
 }{}
 
+%FIXME Isso pode ser resolvido de um jeito melhor, fazendo uma seção (editorial e mandamentos)
+% não entrarem no índice usando uma tag, e não outro tipo de environment.
+% Veja a primeira linha de editorial.tex para entender melhor.
+% Delimita o editorial (que não entra no Índice):
+\newenvironment{editorial}[1] {
+    \framebox[\textwidth] {
+        \rule[-1.2ex]{5ex}{5.5ex}
+        {\Large\sf #1}
+        \hspace{\stretch{1}}
+    }
+    \phantomsection %Faz o link do pdf funcionar direito
+    %\addcontentsline{toc}{chapter}{#1}
+    \nopagebreak[4]
+}{}
+
 
 % Delimita uma subseção
 \newenvironment{subsecao}[1] {
@@ -76,9 +91,6 @@
 % ============================ Documento ===============================
 \begin{document}
 
-%Renomeando o índice------------------------------------------------------------
-\renewcommand{\contentsname}{\center Esse guia contém...}
-
 % Capa -------------------------------------------------------------------------
 \begin{figure}[p]
   \begin{center}
@@ -89,13 +101,23 @@
 \clearpage
 \newpage
 
-% Coloca o índice --------------------------------------------------------------
-\tableofcontents
-\newpage
-
 % Editorial --------------------------------------------------------------------
 \input{editorial.tex}
 \pagebreak
+
+%Renomeando o índice------------------------------------------------------------
+\renewcommand{\contentsname}{\center Esse guia contém...}
+
+% Coloca o índice --------------------------------------------------------------
+\tableofcontents
+% Remove números de página do índice
+\thispagestyle{empty}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\addtocontents{toc}{\protect\pagestyle{empty}}
+\newpage
+
+% Começa a numeração aqui
+\pagenumbering{arabic}
 
 % Carta Aos Ingressantes -------------------------------------------------------
 \input{carta_aos_ingressantes.tex}
