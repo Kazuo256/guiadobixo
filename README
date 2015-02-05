@@ -6,6 +6,13 @@ Guia do Bixo - Comissão de Recepção do IME-USP
   Este guia é escrito anualmente para facilitar a vida dos bixos ingressantes no
 IME-USP.
 
+:: Instalação do LaTeX
+  Para instalar o LaTeX, você precisará baixar os seguintes pacotes no Ubuntu:
+    - texlive
+    - texlive-latex-extra
+    - texlive-lang-portuguese
+  Para tal, digite "sudo apt-get install texlive texlive-latex-extra texlive-lang-portuguese" aperte Enter, espere a Internet ser baixada para o seu computador e seja feliz.
+
 :: Guidelines
   Este guia tem o intuito de ser sustentável e de fácil manutenção entre os
 anos. Assim, pedimos que sempre que contribuir, atente para as seguintes
