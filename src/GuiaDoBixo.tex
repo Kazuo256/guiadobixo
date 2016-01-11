@@ -75,8 +75,8 @@
     \nopagebreak[4]
 }{}
 
-% Coloca uma figura (sem ser quadrinhos)
-\newcommand{\figura}[1] {
+% Coloca uma figura grande (sem ser quadrinhos)
+\newcommand{\figuragrande}[1] {
     \begin{figure}[!htbp]
       \begin{center}
         \includegraphics[width=\textwidth]{img/#1.pdf}
@@ -84,9 +84,20 @@
     \end{figure}
 }
 
+% Coloca uma figura menor (sem ser quadrinhos)
+\newcommand{\figurapequenainline}[1] {
+  \begin{wrapfigure}{r}{0.25\textwidth}
+    \vspace{-20pt}
+    \begin{center}
+      \includegraphics[width=0.25\textwidth]{img/#1.pdf}
+    \end{center}
+    \vspace{-20pt}
+  \end{wrapfigure}
+}
+
 % Coloca quadrinhos
 \newcommand{\quadrinhos}[1] {
-    \figura{quad#1}
+    \figuragrande{quad#1}
 }
 
 
