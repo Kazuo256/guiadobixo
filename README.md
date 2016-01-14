@@ -1,8 +1,6 @@
 Guia do Bixo - Comissão de Recepção do IME-USP
 ==============================================
 
-## Sobre o guia
-
 Este guia é escrito anualmente para facilitar a vida dos bixos ingressantes no
 IME-USP.
 
