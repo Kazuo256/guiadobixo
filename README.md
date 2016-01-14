@@ -7,10 +7,13 @@ Guia do Bixo - Comissão de Recepção do IME-USP
 IME-USP.
 
 ## Instalação do LaTeX
+
   Para instalar o LaTeX, você precisará baixar os seguintes pacotes no Ubuntu:
+
   - texlive
   - texlive-latex-extra
   - texlive-lang-portuguese
+
   Para tal, digite
   ```bash
   sudo apt-get install texlive texlive-latex-extra texlive-lang-portuguese
@@ -19,9 +22,11 @@ IME-USP.
   feliz.
 
 ## Guidelines
+
   Este guia tem o intuito de ser sustentável e de fácil manutenção entre os
   anos. Assim, pedimos que sempre que contribuir, atente para as seguintes
   orientações:
+
   - Tente manter as linhas com menos de 80 caracteres
   - Tente deixar a formatação do latex consistente
   - Deixe uma linha vazia no começo e fim de cada seção pra facilitar a vida.
@@ -37,19 +42,24 @@ IME-USP.
   Sempre escreva VETERANO em maíusculas e bixo em minúsculas.
 
 ## Coisas úteis
+
   Sobre o latex:
+
   - Lembre-se que pro latex, espaço, tab, newline é tudo a mesma coisa.
   - Lembre-se que pro latex, uma linha vazia é igual a 20 linhas vazias.
 
   Para procurar coisas:
-    ```bash
-    grep "TODO" *.tex
-    ```
+
+  ```bash
+  grep "TODO" *.tex
+  ```
     
   No vim:
-    ```vim
-    :%s/^\s\+//g  - Tira espaços em branco no começo da linha por todo o código
-    :%s/\s\+$//g  - Tira espaços em branco no fim da linha por todo o código
-    :.s/^\(.\{,79}\) \(\a\+.*\)/\1^M\2/  - Quebra a linha em aproximadamente 80 caracteres    
-    ```
+
+  ```vim
+  :%s/^\s\+//g  - Tira espaços em branco no começo da linha por todo o código
+  :%s/\s\+$//g  - Tira espaços em branco no fim da linha por todo o código
+  :.s/^\(.\{,79}\) \(\a\+.*\)/\1^M\2/  - Quebra a linha em aproximadamente 80 caracteres    
+  ```
+
   Pra escrever esse ^M, você deve apertar ctrl+v, soltar e depois apertar enter.
