@@ -1,4 +1,4 @@
-\documentclass[12pt]{report}
+\documentclass[12pt,twoside]{report}
 \usepackage[portuguese]{babel}
 \usepackage[utf8]{inputenc}
 %\usepackage[dvips]{graphicx}
@@ -53,7 +53,10 @@
     \phantomsection %Faz o link do pdf funcionar direito
     %\addcontentsline{toc}{chapter}{#1}
     \nopagebreak[4]
-}{}
+}{
+\thispagestyle{empty}
+\pagebreak
+}
 
 
 % Delimita uma subseção
@@ -114,9 +117,18 @@
 \clearpage
 \newpage
 
-% Editorial --------------------------------------------------------------------
+% Pré-Índice -------------------------------------------------------------------
 \input{editorial.tex}
-\pagebreak
+
+% Carta Aos Ingressantes -------------------------------------------------------
+\input{carta_aos_ingressantes.tex}
+
+% Os Dez Mandamentos -----------------------------------------------------------
+\input{dez_mandamentos.tex}
+
+% Os Sete Pecados --------------------------------------------------------------
+\input{sete_pecados.tex}
+
 
 %Renomeando o índice------------------------------------------------------------
 \renewcommand{\contentsname}{\center Esse guia contém...}
@@ -132,13 +144,10 @@
 % Começa a numeração aqui
 \pagenumbering{arabic}
 
-% Carta Aos Ingressantes -------------------------------------------------------
-\input{carta_aos_ingressantes.tex}
-\pagebreak
-\quadrinhos{1}
 
 % Comissão de Trote e o Kit-bixo -----------------------------------------------
 \input{comissao_e_kit_bixo.tex}
+\quadrinhos{1}
 
 % O CAMat ----------------------------------------------------------------------
 \input{camat.tex}
@@ -147,9 +156,15 @@
 % A Atlética -------------------------------------------------------------------
 \input{atletica.tex}
 
+%FIXME GAMBIARRA para não quebrar página num lugar zuado
+\pagebreak
+
 % Dissecando os Cursos ---------------------------------------------------------
 \input{dissecando_os_cursos.tex}
 \quadrinhos{6}
+
+%FIXME GAMBIARRA para não quebrar página num lugar zuado
+\pagebreak
 
 % Um Pouco Sobre o IME ---------------------------------------------------------
 \input{sobre_o_ime.tex}
@@ -157,6 +172,9 @@
 
 % O que é RD? ------------------------------------------------------------------
 \input{rd.tex}
+
+%FIXME GAMBIARRA para não quebrar página num lugar zuado
+\pagebreak
 
 % Atitude, bixo! ---------------------------------------------------------------
 \input{atitude_bixo.tex}
@@ -169,6 +187,10 @@
 
 % CEC --------------------------------------------------------------------------
 \input{cec.tex}
+
+
+%FIXME GAMBIARRA para não quebrar página num lugar zuado
+\pagebreak
 
 % CAEM -------------------------------------------------------------------------
 \input{caem.tex}
@@ -196,6 +218,9 @@
 % Melodias para a bixarada -----------------------------------------------------
 %\pagebreak
 \input{musicas.tex}
+
+%FIXME GAMBIARRA para a penúltima página não ficar zuada.
+\pagebreak
 
 % Utilidades -------------------------------------------------------------------
 \input{utilidades.tex}
