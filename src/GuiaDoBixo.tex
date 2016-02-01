@@ -13,6 +13,8 @@
 \usepackage{wrapfig} % Para o qrcode do editorial
 \usepackage[labelformat=empty]{caption} % Para tirar o "Figure:" da caption do QRCode
 
+%\usepackage{showframe} %Para mostrar o frame do arquivo
+
 \newcounter{qcounter}
 
 \setlength{\parindent}{0pt}
@@ -134,6 +136,10 @@
 \thispagestyle{empty} % Some com aquele número 1 feio na capa.
 \clearpage
 \newpage
+
+% Começa a numeração aqui para que o LaTeX entenda qual
+% página é ímpar e qual é par antes do índice.
+\pagenumbering{arabic}
 
 % Pré-Índice -------------------------------------------------------------------
 \input{editorial.tex}
