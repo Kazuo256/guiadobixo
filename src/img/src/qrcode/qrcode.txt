@@ -1,2 +1,3 @@
 O arquivo qrcode_2015.svg aponta para https://linux.ime.usp.br/~rulojuka/GuiaDoBixo2015.pdf
 O arquivo qrcode_2016.png aponta para https://linux.ime.usp.br/~rulojuka/guia.php
+O arquivo qrcode_2017.png aponta para https://ime.usp.br/~kazuo/guia
