@@ -1,53 +1,79 @@
-Todos os anos:
-  (X) - Verificar todos os %REFTIME (Referências a uma data que pode mudar)
-  (X) - Arrumar o máximo de %FIXME possíveis
-  (X) - Repassar os textos das entidades (desde RDs até Rede Linux) com antecedência para eles atualizarem.
-  (X) - Atualizar o tão negligenciado texto do DCE.
-  (X) - Adicionar mapa do IME (tipo uma planta, dizendo onde é o quê) Podemos até usá-lo durante a visita ao IME.
-  ( ) - Procurar e ler vários guias do bixo por aí afora e pegar boas idéias.
 
-Para o futuro:
-  ( ) - Sugestão: Adicionar Escopa e Mentira nos jogos ou só falar que existem
-  ( ) - Verificar parte sobre email USP (bixes recebem email na matrícula?)
-  ( ) - Manter PUTUSP?
-  ( ) - Falar das redes WiFi (uspnet, eduroam)
-  ( ) - Logo do CinIME
+# Lista de pendências no guia
 
-Para 2017:
-  (X) - Fazer contador de downloads
-  (X) - Atualizar QR Code no edital
-  (X) - Atualizar descrição do kit bixo
-  (X) - Atualizar preços de restaurantes (pag. ~51)
-  (X) - CAPA
-  (X) - Mudar IMEntrando para AnIME-se
-  (X) - Atualizar a data do AnIME-se
-  (X) - Tirar tatuagens personalizadas do kit-bixo
-  (X) - Tirar GrecIME, colocar lanchonete
-  (X) - RDs não mais eleitos através do CAMat
-  (X) - Atualizar quantidade de RDs na Congregação: 3 de graduação, 2 de pós
-  (X) - Atualizar os jogos
-  (X) - Sugestão: Mudar o texto do RD's para a seção "Atitude Bixos"
-  Grupo A5
-  (X) - Ainda estão organizando o evento que mencionam no fim do primeiro parágrafo?
-  Sobre o DCE
-  (X) - Rever todo o último parágrafo dessa seção
-  Atlética
-    (X) - Atualizar a data do BICHUSP
-    (X) - Prêmios no BICHUSP 2016
-    (X) - Não tem mais IMEteria
-    (X) - Ainda tem rompendo o hIMEn, festival de Bandas, RockIME e IMEteria?
-  Bandejão
-    (X) - Colocar o PCO
-    (X) - Atualizar
-  Arrumar espaçamento:
-    (X) - Na parte do Bloco A e Ime Jr. dentro de Um pouco sobre o ime (~pag.
-          19)
-    (X) - Na parte do Setor do Passe Escolar e SAP dentro de Um pouco sobre a
-          USP (pag. 40)
-  Cultura na USP:
-    (X) - Local do Paço das Artes(mudou para o MIS)
+## Todos os anos
 
-Para 2016:
++ [ ] Verificar todos os %REFTIME (Referências a uma data que pode mudar)
++ [ ] Arrumar o máximo de %FIXME possíveis
++ [ ] Repassar os textos das entidades (desde RDs até Rede Linux) com
+      antecedência para eles atualizarem.
++ [ ] Atualizar o tão negligenciado texto do DCE.
++ [ ] Adicionar mapa do IME (tipo uma planta, dizendo onde é o quê). Podemos até
+      usá-lo durante a visita ao IME.
++ [ ] Verificar contador de downloads
++ [ ] Atualizar QR Code no edital
++ [ ] Procurar e ler vários guias do bixo por aí afora e pegar boas idéias.
+
+## Para o futuro
+
++ [ ] Sugestão: Adicionar Escopa e Mentira nos jogos ou só falar que existem
++ [ ] Verificar parte sobre email USP (bixes recebem email na matrícula?)
++ [ ] Manter PUTUSP?
++ [ ] Falar das redes WiFi (uspnet, eduroam)
++ [ ] Logo do CinIME
+
+## Para 2018
+
++ [ ] Atualizar descrição do kit bixo
++ [ ] Atualizar preços de restaurantes (pag. ~51)
++ [ ] CAPA
++ [ ] Atualizar a data do AnIME-se
++ [ ] Atualizar os jogos
++ Sobre o DCE
+  + [ ] Rever todo o último parágrafo dessa seção (possivelmente desatualizado)
++ Entidades
+  + [ ] Grupo A5
+  + Atlética
+    + [ ]  Atualizar a data do BICHUSP
+    + [ ]  Prêmios no BICHUSP 2017
+    + [ ]  Ainda tem rompendo o hIMEn, festival de Bandas, RockIME e IMEteria?
++ [ ] Atualizar Bandejão se necessário
+
+## Para 2017
++ [X] Fazer contador de downloads
++ [X] Atualizar QR Code no edital
++ [X] Atualizar descrição do kit bixo
++ [X] Atualizar preços de restaurantes (pag. ~51)
++ [X] CAPA
++ [X] Mudar IMEntrando para AnIME-se
++ [X] Atualizar a data do AnIME-se
++ [X] Tirar tatuagens personalizadas do kit-bixo
++ [X] Tirar GrecIME, colocar lanchonete
++ [X] RDs não mais eleitos através do CAMat
++ [X] Atualizar quantidade de RDs na Congregação: 3 de graduação, 2 de pós
++ [X] Atualizar os jogos
++ [X] Sugestão: Mudar o texto do RD's para a seção "Atitude Bixos"
++ Grupo A5
+  + [X] Ainda estão organizando o evento que mencionam no fim do primeiro
+      parágrafo?
++ Sobre o DCE
+  + [X] Rever todo o último parágrafo dessa seção
++ Atlética
+  + [X] Atualizar a data do BICHUSP
+  + [X] Prêmios no BICHUSP 2016
+  + [X] Não tem mais IMEteria
+  + [X] Ainda tem rompendo o hIMEn, festival de Bandas, RockIME e IMEteria?
++ Bandejão
+  + [X] Colocar o PCO
+  + [X] Atualizar
++ Arrumar espaçamento:
+  + [X] Na parte do Bloco A e Ime Jr. dentro de Um pouco sobre o ime (~pag. 19)
+  + [X] Na parte do Setor do Passe Escolar e SAP dentro de Um pouco sobre a USP
+        (pag. 40)
++ Cultura na USP:
+  + [X] Local do Paço das Artes(mudou para o MIS)
+
+## Para 2016
   (X) - CAPA
   (X) - Diminuir o texto do CEC
   (X) - Desenvolver um jeito para contar o número de downloads do guia.
