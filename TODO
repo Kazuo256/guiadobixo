@@ -10,8 +10,8 @@
 + [ ] Atualizar o tão negligenciado texto do DCE.
 + [ ] Adicionar mapa do IME (tipo uma planta, dizendo onde é o quê). Podemos até
       usá-lo durante a visita ao IME.
-+ [ ] Verificar contador de downloads
-+ [ ] Atualizar QR Code no edital
++ [x] Verificar contador de downloads
++ [x] Atualizar QR Code no edital
 + [ ] Procurar e ler vários guias do bixo por aí afora e pegar boas idéias.
 
 ## Para o futuro
@@ -39,7 +39,7 @@
   + [ ] BCC
   + [ ] Estat
   + [ ] Pura
-  + [ ] Lic
+  + [x] Lic
   + [ ] Aplicada
   + [ ] BMAC
 + Revisar entidades
