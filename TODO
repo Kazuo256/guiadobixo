@@ -3,12 +3,12 @@
 
 ## Todos os anos
 
-+ [ ] Verificar todos os %REFTIME (Referências a uma data que pode mudar)
++ [x] Verificar todos os %REFTIME (Referências a uma data que pode mudar)
 + [ ] Arrumar o máximo de %FIXME possíveis
 + [ ] Repassar os textos das entidades (desde RDs até Rede Linux) com
       antecedência para eles atualizarem.
 + [ ] Atualizar o tão negligenciado texto do DCE.
-+ [ ] Adicionar mapa do IME (tipo uma planta, dizendo onde é o quê). Podemos até
++ [x] Adicionar mapa do IME (tipo uma planta, dizendo onde é o quê). Podemos até
       usá-lo durante a visita ao IME.
 + [x] Verificar contador de downloads
 + [x] Atualizar QR Code no edital
@@ -25,19 +25,16 @@
 ## Para 2018
 
 + [ ] Manter Dez Mandamentos?
-+ [ ] Discutir músicas
 + [ ] Instruções sobre CRUSP e bolsas
-+ [ ] Atualizar descrição do kit bixo
++ [x] Atualizar descrição do kit bixo
 + [ ] Atualizar preços de restaurantes (pag. ~51)
 + [ ] CAPA
 + [ ] Atualizar a data do AnIME-se
 + [ ] Atualizar forma de obter fichas de xerox
-+ [ ] Atualizar os jogos
 + [ ] Atualizar linhas dos busões
-+ [ ] MatrUSP
-+ [ ] USPavalia
-+ Sobre o DCE
-  + [ ] Rever todo o último parágrafo dessa seção (possivelmente desatualizado)
++ [x] MatrUSP
++ [x] USPavalia
++ [ ] Plantão de dúvidas do CAMat
 + Revisar textos do cursos
   + [x] BCC
   + [ ] Estat
@@ -56,17 +53,17 @@
   + [x] CinIME
   + [ ] Grupo A5
   + [ ] Olimpíadas do Conhecimento
-  + [ ] CCSL
+  + [x] CCSL
   + [x] Biblioteca
   + [x] CRInt
   + [x] CEC
-  + [ ] CAEM
+  + [x] CAEM
   + Atlética
     + [ ]  Atualizar a data do BICHUSP
-    + [ ]  Prêmios no BICHUSP 2017
-    + [ ]  Ainda tem rompendo o hIMEn, festival de Bandas, RockIME e IMEteria?
-+ [ ] Atualizar Bandejão se necessário
-    + [ ] Editar imagem: Física não abre mais para almoço, só o central aos sábados e química aos domingos
+    + [x]  Prêmios no BICHUSP 2017
++ [x] Atualizar Bandejão se necessário
+    + [x] Editar imagem: Física não abre mais para almoço, só o central aos
+          sábados e química aos domingos
 + [ ] Barraquinhas da ECA não existem mais!
 + [ ] Bebidas na USP: Ainda tem festas?
 
