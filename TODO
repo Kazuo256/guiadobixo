@@ -5,7 +5,7 @@
 
 + [x] Verificar todos os %REFTIME (Referências a uma data que pode mudar)
 + [ ] Arrumar o máximo de %FIXME possíveis
-+ [ ] Repassar os textos das entidades (desde RDs até Rede Linux) com
++ [x] Repassar os textos das entidades (desde RDs até Rede Linux) com
       antecedência para eles atualizarem.
 + [ ] Atualizar o tão negligenciado texto do DCE.
 + [x] Adicionar mapa do IME (tipo uma planta, dizendo onde é o quê). Podemos até
@@ -25,11 +25,11 @@
 ## Para 2018
 
 + [ ] Talvez tirar Dez Mandamentos
-+ [ ] Instruções sobre CRUSP e bolsas
++ [x] Instruções sobre CRUSP e bolsas
 + [x] Atualizar descrição do kit bixo
 + [ ] Atualizar preços de restaurantes (pag. ~51)
 + [x] CAPA
-+ [ ] Atualizar a data do AnIME-se
++ [x] Atualizar a data do AnIME-se
 + [x] Atualizar forma de obter fichas de xerox
 + [x] Atualizar linhas dos busões
 + [x] MatrUSP
@@ -41,7 +41,7 @@
   + [x] Pura
   + [x] Lic
   + [ ] Aplicada
-  + [ ] BMAC
+  + [x] BMAC
 + Revisar entidades
   + [x] CAMat
   + [x] RDs
@@ -52,7 +52,7 @@
   + [x] Existimos
   + [x] CinIME
   + [x] Grupo A5
-  + [ ] Olimpíadas do Conhecimento
+  + [x] Olimpíadas do Conhecimento
   + [x] CCSL
   + [x] Biblioteca
   + [x] CRInt
