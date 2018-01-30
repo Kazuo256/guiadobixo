@@ -104,6 +104,17 @@
   \end{wrapfigure}
 }
 
+% Coloca uma figura menor (sem ser quadrinhos) apertada verticalmente
+\newcommand{\figurapequenainlineapertada}[1] {
+  \begin{wrapfigure}{r}{0.25\textwidth}
+    \vspace{-40pt}
+    \begin{center}
+      \includegraphics[width=0.25\textwidth]{img/#1.pdf}
+    \end{center}
+    \vspace{-40pt}
+  \end{wrapfigure}
+}
+
 % Coloca quadrinhos
 \newcommand{\quadrinhos}[1] {
     \figuragrande{quad#1}
@@ -169,6 +180,8 @@
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 \addtocontents{toc}{\protect\pagestyle{empty}}
 \newpage
+\thispagestyle{empty}
+\cleardoublepage
 
 % Começa a numeração aqui
 \pagenumbering{arabic}
@@ -194,6 +207,10 @@
 
 % Um Pouco Sobre o IME ---------------------------------------------------------
 \input{sobre_o_ime.tex}
+
+%FIXME GAMBIARRA para não quebrar página num lugar zuado
+\pagebreak
+
 \quadrinhos{7}
 
 % Atitude, bixo! ---------------------------------------------------------------
@@ -220,15 +237,19 @@
 % Um Pouco Sobre o DCE ---------------------------------------------------------
 \input{sobre_o_dce.tex}
 
+\quadrinhos{5}
+
 % Hospital Universitário -------------------------------------------------------
 \input{hospital_universitario.tex}
-\quadrinhos{5}
 
 % Tudo Que Vai Volta -----------------------------------------------------------
 \input{transporte.tex}
 
 % Guia de jogos da Vivência ----------------------------------------------------
 \input{guia_de_jogos.tex}
+
+%FIXME GAMBIARRA para não quebrar página num lugar zuado
+\pagebreak
 
 % Dicas ------------------------------------------------------------------------
 \input{dicas.tex}
@@ -250,5 +271,30 @@
 
 % Considerações Finais ---------------------------------------------------------
 \input{consideracoes_finais.tex}
+
+%FIXME
+%REFTIME
+% O guia precisa ter um número de páginas totais múltiplo de 4, e a última
+% página tem que estar vazia
+
+\newpage
+\thispagestyle{empty}
+\pagebreak
+
+\newpage\phantom{skip}
+\thispagestyle{empty}
+\pagebreak
+
+\newpage\phantom{skip}
+\thispagestyle{empty}
+\pagebreak
+
+\newpage\phantom{skip}
+\thispagestyle{empty}
+\pagebreak
+
+\newpage\phantom{skip}
+\thispagestyle{empty}
+\pagebreak
 
 \end{document}
