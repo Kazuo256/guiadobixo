@@ -1,7 +1,7 @@
 Guia do Bixo - Comissão de Recepção do IME-USP
 ==============================================
 
-Este guia é escrito anualmente para facilitar a vida dos bixos ingressantes no
+Este guia é escrito anualmente para facilitar a vida dos ingressantes no
 IME-USP.
 
 ## Instalação do LaTeX
@@ -37,7 +37,6 @@ Ao escrever textos, utilize uma linguagem impessoal e escreva da maneira mais
 simples que você conseguir. Evite piadas muito internas e no geral, siga o 
 seu bom senso.
 
-Sempre escreva VETERANO em maíusculas e bixo em minúsculas.
 
 ## Coisas úteis
 
