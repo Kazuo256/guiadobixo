@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 ## Tarefa
-texto da tarefaa qui
+texto da tarefa qui
 
 ## Detalhes
 detalhes adicionais aqui
