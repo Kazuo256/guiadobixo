@@ -1,7 +1,7 @@
 ---
 name: tasks issue template 2021
-about: TODO - Nome da tarefa
-title: 'TODO - '
+about: template for guia do bixe edition tasks
+title: 'TODO - Nome da tarefa '
 labels: '2021'
 assignees: ''
 
