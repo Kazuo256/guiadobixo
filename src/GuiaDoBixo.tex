@@ -8,6 +8,7 @@
 \usepackage{latexsym}
 \usepackage{amsmath}
 \usepackage{float}
+\usepackage{xurl}
 \usepackage{units} % Para frações bonitas
 \usepackage{verbatim} % Para que o bloco {comment} funcione
 \usepackage[pdfborder={0 0 0}]{hyperref}
@@ -133,10 +134,10 @@
 
 % Coloca um mapa
 \newcommand{\mapa}[1] {
-    \begin{figure}[H]
-        \centering
-        \includegraphics[height=\textwidth, angle=90]{img/#1}
-    \end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textheight, angle=90]{img/#1}
+	\end{figure}
 }
 
 %FIXME GAMBIARRA
@@ -157,7 +158,7 @@
 \begin{figure}[p]
   %\begin{center}
     %\hspace{1.7cm}
-    \includegraphics[height=1.05\textheight]{img/capa_2020.jpeg} %REFTIME
+    \includegraphics[height=1\textheight]{img/capa_2023.png} %REFTIME
   %\end{center}
 \end{figure}
 \thispagestyle{empty} % Some com aquele número 1 feio na capa.
@@ -198,13 +199,15 @@
 \pagenumbering{arabic}
 
 
-% Comissão de Trote e o Kit-bixo -----------------------------------------------
-\input{comissao_e_kit_bixo.tex}
+% Comissão de Trote e o Kit-bixe -----------------------------------------------
+\input{comissao_e_kit_bixe.tex}
 \quadrinhos{1}
+\pagebreak
 
 % O CAMat ----------------------------------------------------------------------
 \input{camat.tex}
 \quadrinhos{2}
+\pagebreak
 
 % A Atlética -------------------------------------------------------------------
 \input{atletica.tex}
@@ -213,9 +216,12 @@
 \input{dissecando_os_cursos.tex}
 \pagebreak
 
+% AACs e ATPAs ------------------------------------------------------------------
+\input{aac_atpa.tex}
+\quadrinhos{6}
+\pagebreak
 % Júpiter Web ------------------------------------------------------------------
 \input{jupiter.tex}
-\quadrinhos{6}
 \pagebreak
 
 % Um Pouco Sobre o IME ---------------------------------------------------------
@@ -226,8 +232,9 @@
 
 % CCSL - Centro de Competência em Software Livre
 
-\input{ccsl.tex}
 \pagebreak
+\input{ccsl.tex}
+
 % CRInt ------------------------------------------------------------------------
 \input{crint.tex}
 
@@ -236,24 +243,27 @@
 
 % CEC --------------------------------------------------------------------------
 \input{cec.tex}
-
+\pagebreak
 % CAEM -------------------------------------------------------------------------
 \input{caem.tex}
+\pagebreak
 
 % Um Pouco Sobre a USP ---------------------------------------------------------
 \input{sobre_a_usp.tex}
 
 % Um Pouco Sobre o DCE ---------------------------------------------------------
 \input{sobre_o_dce.tex}
-
 \quadrinhos{5}
+\pagebreak
 
 % Hospital Universitário -------------------------------------------------------
 \input{hospital_universitario.tex}
-
 \pagebreak
+
 % Tudo Que Vai Volta -----------------------------------------------------------
 \input{transporte.tex}
+
+\pagebreak
 
 % Guia de jogos da Vivência ----------------------------------------------------
 \input{guia_de_jogos.tex}
@@ -263,13 +273,11 @@
 
 % Dicas ------------------------------------------------------------------------
 \input{dicas.tex}
-\quadrinhos{9}
 
 %FIXME GAMBIARRA para não quebrar página num lugar zuado
-\pagebreak
 
 % Melodias para a bixarada -----------------------------------------------------
-%\pagebreak
+\pagebreak
 \input{musicas.tex}
 
 % Utilidades -------------------------------------------------------------------
@@ -287,14 +295,6 @@
 %REFTIME
 % O guia precisa ter um número de páginas totais múltiplo de 4, e a última
 % página tem que estar vazia
-
-\newpage
-\thispagestyle{empty}
-\pagebreak
-
-\newpage\phantom{skip}
-\thispagestyle{empty}
-\pagebreak
 
 
 \end{document}
