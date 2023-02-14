@@ -9,6 +9,7 @@
 \usepackage{amsmath}
 \usepackage{float}
 \usepackage{xurl}
+\usepackage{afterpage} % para páginas em branco
 \usepackage{units} % Para frações bonitas
 \usepackage{verbatim} % Para que o bloco {comment} funcione
 \usepackage[pdfborder={0 0 0}]{hyperref}
@@ -149,7 +150,16 @@
     \end{figure}
 }
 
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage
+    }
 
+\newcommand\paginaembranco{%
+    \afterpage{\blankpage}
+    }
 
 % ============================ Documento ===============================
 \begin{document}
