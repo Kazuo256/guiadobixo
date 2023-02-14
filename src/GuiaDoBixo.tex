@@ -150,6 +150,7 @@
     \end{figure}
 }
 
+% Comando auxiliar para o \paginaembranco
 \newcommand\blankpage{%
     \null
     \thispagestyle{empty}%
@@ -157,6 +158,8 @@
     \newpage
     }
 
+% Cria uma página em branco SEM NUMERAÇÃO após completar a atual
+% (assim que é possível)
 \newcommand\paginaembranco{%
     \afterpage{\blankpage}
     }
