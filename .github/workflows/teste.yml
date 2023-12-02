@@ -1,15 +1,7 @@
-name: "test issue copy"
-on:
-    issue_comment:
-        types: [created]
-jobs:
-    copy:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v1
-            - uses: soichisumi/issue-copy-action@v0.2.0
-              with:
-                keyword: "/copy"
-                targetRepository: receopcaoimeusp/guiadobixe
-                githubToken: ${{ secrets.GITHUB_TOKEN }}
-                contentOfNewIssue: 'prefix of newly created issue'
+name: Github Issue Copier
+uses: soichisumi/issue-copy-action@v0.2.0
+with:
+  keyword: "/copy"
+  targetRepository: recepcaoimeusp/guiadobixe
+  githubToken: ${{ secrets.GITHUB_TOKEN }}
+  contentOfNewIssue: 'prefix of newly created issue'
