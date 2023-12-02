@@ -1,4 +1,4 @@
-name: "issue copy"
+name: "teste copy"
 on:
     issue_comment:
         types: [created]
@@ -13,4 +13,3 @@ jobs:
                 targetRepository: recepcaoimeusp/guiadobixe
                 githubToken: ${{ secrets.GITHUB_TOKEN }}
                 contentOfNewIssue: 'prefix of newly created issue'
-
