@@ -1,5 +1,5 @@
 name: "issue copy"
-on:
+on: [push]
     issue_comment:
         types: [created]
 jobs:
