@@ -1,0 +1,25 @@
+name: 'Github Issue Copier'
+description: 'Copy an issue to another repository'
+author: 'Soichi Sumi'
+inputs:
+  githubToken:
+    description: "Github token"
+    required: true
+  targetRepository:
+    description: 'Repository to which generated issue is copied. format: $OWNER/$REPO_NAME'
+    required: true
+  keyword:
+    description: 'Keyword to trigger this action. The action is executed in the case of lowercased issue comment matched with lowercased keyword.'
+    default: '/copy'
+  contentOfNewIssue:
+    description: 'Content of newly created issue'
+    default: ''
+outputs:
+  created: # output will be available to future steps 
+    description: 'The created issue'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+branding:
+  icon: 'activity'
+  color: 'green'
